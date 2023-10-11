@@ -1,0 +1,29 @@
+:root
+{
+    --white-color: #fff;
+    --back-color: #000;
+    --text-color: #333;
+    --red-color: #e30019;
+}
+*{
+    box-sizing: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 10px 0 ;
+}
+html{
+    font-size: 62.5%;
+    line-height: 4rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box ;
+}
+.gird__full-width{
+    width: 100%;
+}
+grid__row{
+    display: flex;
+    
+}
+div{
+    display: block;
+}

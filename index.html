@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./assists/main.css">
+    <link rel="stylesheet" href="./assists/base.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="web">
+    <header class="main-header">
+        <div class="main-header--top">
+            <nav class="container">
+                <div class="main-header main-header--left">
+                    <div class="main-header--logo" >
+                        <a href="">
+                            <img src="https://file.hstatic.net/200000636033/file/logo_fd11946b31524fbe98765f34f3de0628.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header-action-item header-action-item--list ">
+                        <a href="" class="header-action__link">
+                            <div class="backgound">
+                                <span class="box-icon">
+                                    <i class="fa-solid fa-bars"></i>
+                                </span>
+                                <span class="box-text">
+                                    <span class="txtnw">
+                                        Danh mục
+                                    </span>
+                                </span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="main-header main-header--right">
+                    <div class="header-action-item header-action-item--sreach">
+                        <input required class="input-sreach" autocomplete="off" maxlength="40px" type="text" size="20" placeholder="Bạn cần tìm gì?">
+                        <button type="submit" class="btn-search btn" id="btn-search">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <div class="header-action-item main-header--info hide-mb">
+                        <div class="header-action-item main-header--hotline">
+                            <a href="" class="header-action__link" aria-label="Hotline" title="Hotline">
+                                <span class="box-icon">
+                                    <i class="fa-solid fa-headset"></i>
+                                </span>
+                                <span class="box-text">
+                                    <span class="wxtt">HotLine
+                                    </span>
+                                    <span class="txtbl"><span class="txt-overflow">0824056521</span> </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                   
+                    <div class="header-action-item main-header--info hide-mb">
+                        <div class="header-action-item header-action-item--showroom">
+                            <a href="" class="header-action__link" aria-label="Showroom" title="Showroon">
+                                <span class="box-icon">
+                                    <i class="fa-solid fa-location-dot"></i>
+                                </span>
+                                <span class="box-text">
+                                    <span class="txtnw">
+                                        Hệ thống
+                                    </span>
+                                    <span class="txtbl"><span class="txt-overflow">Showroom</span> </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header-action-item main-header--info hide-mb">
+                      <div class="header-action-item header-action-item--ordertracking">
+                            <a href="" class="header-action__link" aria-label="tra cứu đơn hàng " title="tra cứu đơn hàng">
+                            <span class="box-icon">
+                                <i class="fa-solid fa-receipt"></i>
+                            </span>
+                            <span class="box-text">
+                                <span class="txtnw">
+                                    Tra cứu
+                                </span>
+                                <span class="txtbl"><span class="txt-overflow">đơn hàng</span> </span>
+                            </span>
+                            </a>
+                        </div>  
+                    </div>
+                    <div class="header-action-item main-header--info hide-mb">
+                     <div class="header-action-item header-action-item--cart">
+                        <a href="" class="header-action__link" aria-label="Giỏ hàng " title="Giỏ Hàng">
+                            <span class="box-icon">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </span>
+                            <span class="box-text">
+                                <span class="txtnw">
+                                   Giỏ
+                                </span>
+                                <span class="txtbl"><span class="txt-overflow"></span>hàng </span>
+                            </span>
+                        </a>
+                    </div>   
+                    </div>
+                    <div class="header-action-item main-header--info hide-mb">
+                     <div class="header-action-item header-action-item--account">
+                        <a href="" class="header-action__link" aria-label="Đăng nhập" title="Đăng nhập">
+                            <span class="box-icon">
+                                <i class="fa-solid fa-user"></i>
+                            </span>
+                            <span class="box-text">
+                                <span class="txtnw">
+                                   Đăng
+                                </span>
+                                <span class="txtbl"><span class="txt-overflow"></span>nhập </span>
+                            </span>
+                        </a>
+                    </div>   
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="WrapperMain__content">
+        <div class="container-first">
+            <div class="index-slider">
+                <div class="index-slider--nav">
+                    <div class="sidebar-menu">
+                        <nav class="megamenu-nav">
+                            <ul class="megamenu-nav-main">
+                                <li class="megamenu-item mg1">
+                                    <a href="" class="megamenu-link">
+                                        <span class="megamennu-icon">
+                                            <i class="fa-solid fa-laptop"></i>
+                                        </span>
+                                        <span class="megamenu name">
+                                            laptop
+                                        </span>
+                                        <span class="megamenu-ic-right">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="megamenu-item mg2">
+                                    <a href="" class="megamenu-link">
+                                        <span class="megamennu-icon">
+                                            <i class="fa-solid fa-computer"></i>
+                                        </span>
+                                        <span class="megamenu name">
+                                            PC gaming
+                                        </span>
+                                        <span class="megamenu-ic-right">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="megamenu-item mg3">
+                                    <a href="" class="megamenu-link">
+                                        <span class="megamennu-icon">
+                                            <i class="fa-solid fa-desktop"></i>
+                                        </span>
+                                        <span class="megamenu name">
+                                            Man hinh
+                                        </span>
+                                        <span class="megamenu-ic-right">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="megamenu-item mg4">
+                                    <a href="" class="megamenu-link">
+                                        <span class="megamennu-icon">
+                                            <i class="fa-regular fa-keyboard"></i>
+                                        </span>
+                                        <span class="megamenu name">
+                                            ban phim
+
+                                        </span>
+                                        <span class="megamenu-ic-right">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="megamenu-item mg5">
+                                    <a href="" class="megamenu-link">
+                                        <span class="megamennu-icon">
+                                            <i class="fa-solid fa-computer-mouse"></i>
+                                        </span>
+                                        <span class="megamenu name">
+                                           Chuot
+                                        </span>
+                                        <span class="megamenu-ic-right">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="megamenu-item mg6">
+                                    <a href="" class="megamenu-link">
+                                        <span class="megamennu-icon">
+                                            <i class="fa-solid fa-gamepad"></i>
+                                        </span>
+                                        <span class="megamenu name">
+                                            Phu kien
+                                        </span>
+                                        <span class="megamenu-ic-right">
+                                            <i class="fa-solid fa-chevron-right"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="slide-banner">
+                    <div class="slider-left">
+                        <div class="slider-left-top">
+                            <div class="img-top">
+                                <div class="listimg-img">
+                                    <img src="./imgg/12_311c04bf07f14eaf91dc9ddcb7d4d0dd.jpg" alt="">
+                                    <img src="imgg/6_20f8dbf6da254794805e8449bcff3adb.webp" alt="">
+                                    <img src="./imgg/banner_web_slider_800x400__1__3d2e50604afa4448b7ac2075fb9d229b.webp" alt="">
+                                    <img src="./imgg/gearvn-man-hinh-slider_eaff9f7f61cc4f5e953239b3e3a608a9.webp" alt="">
+                                    <img src="./imgg/web_slider_800x400__1__1c516b8765ee44fab20fe5041fa2c963.webp" alt="">
+                                </div>
+                                <div class="control prev">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <div class="control next">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <script src="in"></script>
+                            <div class="listimg-icon">
+                                
+                            </div>
+                        </div>
+                        <div class="slider-left-bot">
+                            <div class="img-bot">
+                                <div class="bot">
+                                    <img src="./imgg/bot_1_93573f113ba24495af4699353a7e3162.webp"alt="">
+                                    <img src="./imgg/bot 2.webp" alt="">
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="slider-right">
+                        <div class="coll-right">
+                            <div class="img-right">
+                                <img src="./imgg/right_1_ec08d1cb99f247f5aaedf6ecf66c33f3.webp" alt="">
+                                <img src="./imgg/right_2_8481a68a341c42808abee7c7b7c566c4.webp" alt="">
+                                <img src="./imgg/right_3_1c2fb72159d2444f93966c4c5bb3d277.webp" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="subbaner">
+            <div class="containner-fluid">
+                <div class="img-bot-subbaner">
+                    <img src="./imgg/bottom_1_3b098c5e4e8c45adb014ebdb99c70921.webp" alt="">
+                    <img src="./imgg/bottom_2_2baece10adcb454083d29c10157c29a0.webp" alt="">
+                    <img src="./imgg/bottom_3_04420bc1e2bc44b88c1f27b0b4fd43a1.webp" alt="">
+                    <img src="./imgg/bottom_4_65f1729a62004fefb76baf413657707b.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <section class="section section-collection">
+            <div class="bestseller-pc">
+                <div class="containner-fluid">
+                <div class="wrapper-content">
+                    <div class="section-heading">
+                        <div class="box-left">
+                            <div class="box-header box-header--separate">
+                                <h2 class="hTitle">
+                                    <a href=""> PC Gaming bán chạy </a>
+                                </h2>
+                            </div>
+                            <div class="box-subheader">
+                                <h3 class="shTitle">
+                                    <div class="icon">
+                                        <i class="fa-solid fa-truck"></i>
+                                    </div>
+                                    Miễn phí giao hàng
+                                </h3>
+                            </div>
+
+                        </div>
+                        <div class="box-right">
+                            <div class="box-cate">
+                                <ul class="cate-list">
+                                    <li><a href=""title="PC CPU i3" >PC CPU i3</a></li>
+                                    <li><a href=""title="PC CPU i5" >PC CPU i5</a></li>
+                                    <li><a href=""title="PC CPU i7" >PC CPU i7</a></li>
+                                    <li><a href=""title="PC CPU i9">PC CPU i9</a></li>
+
+                                </ul>
+                            </div>
+                            <div class="box-link">
+                                <a href="">Xem tất cả</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-content">
+                        <div class="product">
+                            <div class="container-product">
+                                <div class="product-top">
+                                    <div class="product-top-head">
+                                        <div class="product-top-head-icon">
+                                            <i class="fa-solid fa-gift"></i>
+                                        </div>
+                                    </div>
+                                    <div class="product-top-img">
+                                       <a href=""><img src="./imgg/PC GVN VIPER Plus I4080.webp" alt="">
+                                       </a>
+                                    </div>
+                                </div>
+                                <div class="product-bottom">
+                                   <div class="mid">
+                                    <div class="backgound-icon-bestsaler">
+                                        <div class="icon-bestseller">
+                                            <div class="icon-fire">
+                                                <i class="fa-solid fa-fire-flame-curved"></i>
+                                            </div>
+                                            <div class="text-bestsaler">
+                                                Bán chạy
+                                            </div>
+                                        </div>
+                                    </div>
+                                   </div>
+                                    <div class="name-product">
+                                        <a href="">
+                                            <div class="name-product-link">
+                                                PC GVN VIPER Plus I4080
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="tag-product">
+                                        <div class="list-tag"></div>
+                                    </div>
+                                    <div class="line-text">
+                                        <div class="price">
+                                            30.680.000₫
+                                        </div>
+                                        <div class="price-sale">
+                                            <div class="price-aftersale">
+                                                29.990.000₫
+                                            </div>
+                                            <div class="sale">
+                                                -2%
+                                            </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="MainFooter"></footer>
+   </div>
+</body>
+</html>

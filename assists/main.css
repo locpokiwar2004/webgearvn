@@ -464,6 +464,22 @@ ul{
     display: flex;
    
 }
+/* footer */
+.MainFooter{
+    background-color: #fff;
+}
+.row{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin-left: 8px;
+margin-right: 10px;
+}
+.row-1 ul li{
+    display: block;
+    padding-bottom: 8px;
+    position: relative;
+}
 /*flashsale*/
 /* .content{
     background: #6633cc;

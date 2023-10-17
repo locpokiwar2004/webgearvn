@@ -1,0 +1,136 @@
+.top-menu {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+.menu:hover {
+    color: rgb(235, 39, 39);
+    
+}
+.top-menu button{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: rgb(235, 39, 39);
+    text-align: center;
+    border-width: 2px;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: rgb(244, 64, 37);
+    height: 30px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.top-menu button:hover{
+    background: rgb(244, 64, 37);
+    color: #fff;
+}
+.menu{
+    position: relative;
+    top: -50%;
+    transform: translateY(50%);
+    transition: all 0.3s;
+}
+.top-menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+img.gearvnlogo {
+    padding: 5px;
+    width: 152.03px;
+    height: 61.63px;
+}
+
+.menu {
+    font-family: sans-serif;
+    padding-left: 80px;
+    ;
+}
+
+.hotline {
+    font-family: sans-serif;
+    border: 0.5px;
+    border-color: rgb(228, 57, 57);
+    border-radius: 10px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.bigfristimg {
+    padding-top: 70px;
+}
+
+.label {
+    height: 89.1px;
+    width: 100%;
+    background: linear-gradient(blueviolet,blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lb {
+    width: 167.66px;
+    height: 62.24px;
+    padding-top: 13px;
+}
+
+.support {
+    height: 119.1px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sp {
+    height: 80%;
+    width: 80%;
+}
+
+.laptop {
+    height: 1700.1px;
+    width: 100%;
+    background: linear-gradient(navy,blueviolet);
+    display: flex;
+    justify-content: center;
+}
+
+.concenter {
+    width: 1200px;
+    height: 1700.1px;
+}
+
+#bs {
+    width: 1084px;
+    height: 153.73px;
+}
+
+#product {
+    height: 295.31px;
+    width: 567px;
+}
+
+.pr {
+    width: 567px;
+    height: 1547px;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}

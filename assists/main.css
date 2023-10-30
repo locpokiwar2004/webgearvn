@@ -5,8 +5,7 @@
     --text-color: #333;
     --red-color: #e30019;
 }
-
-* {
+*{
     box-sizing: inherit;
 }
 
@@ -125,7 +124,6 @@ img {
     text-decoration: none;
     color: white;
 }
-
 .header-action-item {
     position: relative;
     display: flex;
@@ -192,14 +190,12 @@ img {
     position: relative;
     transition: none;
 }
-
 a {
     color: black;
     text-decoration: none;
     outline: none;
     background-color: transparent;
 }
-
 .index-slider .index-slider--nav {
     display: block;
     color: #333;
@@ -261,6 +257,22 @@ a {
 .megamenu-item:hover {
     content: "";
     background-color: red;
+    border-radius:  4px 0 0 0 ;
+}
+.megamenu-item:hover .megamenu-link::before{
+    right: -32px;
+    border-top: 16px solid transparent;
+    border-left: 16px solid red;
+    border-bottom: 15px solid transparent;
+    border-right: 16px solid transparent;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    margin: auto;
+    content: "";
+}
+.megamenu-item:hover span{
+    color: #fff;
 }
 
 .megamenu-ic-right {
@@ -343,10 +355,10 @@ a {
     width: 100%;
 }
 
-    .bot img {
-        height: 160px;
-        width: 315px;
-    }
+.bot img {
+    height: 160px;
+    width: 315px;
+}
 
 .slider-right {
     width: 35%;
@@ -599,6 +611,7 @@ ul {
     transition: all .3s;
     border-radius: 4px;
     display: none;
+    
 }
 .acount-login::before{
     position: absolute;
@@ -607,6 +620,7 @@ ul {
     height: 70px;
     display: block;
     content: "";
+    
 }
 .log-content{
     margin: 15px 10px 5px 10px;
@@ -665,8 +679,55 @@ button{
 }
 .header-action-item--account:hover .acount-login{
     display: block;
-}
 
+}
+/* hidemenu */
+.megamenu-content{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 100%;
+    border-left: 8px solid #e0e0e0;
+    overflow: auto;
+    width: calc(1210px - 235px);
+    min-height: 496px;
+    max-height: 100vh;
+    background-color: #fff;
+    cursor: default;
+    display: none;
+    border-radius: 4px;
+}
+.mg1:hover .megamenu-content{
+    display: block;
+}
+.colum{
+display: flex;
+position: relative;
+box-sizing: border-box;
+padding: 10px;
+flex-wrap: wrap;
+}
+.smenu a{
+display: block;
+line-height: 25px;
+}
+.smenu{
+    width: 20%;
+    padding: 5px 5px 16px;
+}
+.smenu-item{
+    color: #E30019;
+    font-weight: 600px;
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+.smenu-fillter{
+    font-size: 13px;
+}
+.smenu-fillter:hover
+{
+    color: #E30019;
+}
 /* footer */
 .MainFooter {
     background-color: #fff;
